@@ -1,6 +1,8 @@
 # dealer-on-exrcise
 Dealer On test task (bootstrap3, jquery)
 
+[Demo](https://dealer-on-exercise-lovat.vercel.app/)
+
 # Frontend Web Designer Test Task
 
 This repository contains the completed test task for the company Dealer On. The task was completed using Bootstrap 3 and jQuery, which meet the company's requirements. The maximum allowed time for this task was used – 3 hours.
