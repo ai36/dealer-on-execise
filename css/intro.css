@@ -1,0 +1,11 @@
+.introduction-section {
+    padding: 6em 0;
+}
+
+.introduction-section h2 {
+    margin-bottom: 1em;
+}
+
+.introduction-section .lead {
+    text-wrap: balance;
+}

@@ -1,0 +1,33 @@
+.hero-section {
+    background-image: url('../images/crosstrek2-2.jpg');
+    background-position: center bottom;
+    background-size: 1400px auto;
+    background-repeat: no-repeat;
+    height: 800px;
+    /* linear-gradient(#e2eed9, #7e7d64, #3f2d1a) */
+}
+
+.hero-section h1 {
+    font-size: 320%;
+}
+
+.rating span {
+    opacity: .39;
+}
+
+
+
+
+
+
+.hero-cta {
+    background-color: #7e7d64;
+    color: #e2eed9;
+}
+
+.hero-cta__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}

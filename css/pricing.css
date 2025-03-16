@@ -1,0 +1,210 @@
+.pricing-section {
+    background-color: white;
+    overflow: hidden;
+    background-image: linear-gradient(#7e7d64 0 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    color: #e2eed9;
+}
+
+.pricing-section .container {
+    width: calc(100% - 4em);
+    max-width: 1400px;
+    margin: 0 2em;
+}
+
+.pricing-section .row {
+    display: flex;
+    width: calc(100% - 30px);
+    max-width: unset;
+    height: 700px;
+}
+
+.pricing-section .spec {
+    width: 100%;
+    margin-right: 8px;
+}
+
+.pricing-section .pricing-header {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+
+    padding-bottom: 2em;
+    border-bottom: 1px solid #e2eed980;
+}
+
+.pricing-section .image {
+    width: 50%;
+    height: auto;
+}
+
+.pricing-section .pricing__name {
+    flex: 1;
+}
+
+.pricing-section .subtitle {
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.pricing-section .pricing-list {
+    padding: 1em;
+    column-count: 2;
+
+    border-bottom: 1px solid #e2eed980;
+}
+
+.pricing-section .pricing-list__item {
+    padding: .5em 1em;
+}
+
+@media screen and (width < 1400px) {
+    .pricing-section .row {
+        flex-direction: column-reverse;
+        height: 1200px;
+        width: unset;
+    }
+
+    .pricing-section {
+        background-image: linear-gradient(#7e7d64 0 0);
+        background-size: 100% 75%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        color: #e2eed9;
+    }
+
+    .pricing-section .image {
+        width: 100%;
+    }
+
+    .pricing-section .image img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (width < 1200px) {
+    .pricing-section .row {
+        height: 1100px;
+    }
+}
+
+@media screen and (width < 1000px) {
+    .pricing-section {
+        background-size: 100% 80%;
+    }
+
+    .pricing-section .row {
+        height: 1050px;
+    }
+}
+
+@media screen and (width < 768px) {
+    .pricing-section {
+        background-size: 100% 85%;
+    }
+}
+
+@media screen and (width < 700px) {
+    .pricing-section .row {
+        height: auto;
+    }
+
+    .pricing-section {
+        background-size: 100%;
+    }
+}
+
+@media screen and (width < 600px) {
+    .pricing-section {
+        padding-bottom: 0;
+    }
+    
+    .pricing-section .pricing-header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pricing-section .pricing__name {
+        flex: 1 0 100%;
+        text-align: center;
+    }
+
+    .pricing-section .pricing-list {
+        column-count: unset;
+    }
+}
+
+/* 
+.pricing-section .msrp {
+    grid-area: 2/2/-1/-1;
+    align-self: center;
+    margin-left: auto;
+    font-size: 100%;
+    color: #fff;
+    background-color: #c9155a;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-section .msrp p {
+    font-size: 320%;
+    font-weight: 700;
+}
+
+.pricing-section .mpg {
+    grid-area: 1/1/2/2;
+    text-align: left;
+    font-size: 100%;
+}
+
+.pricing-section .mpg p {
+    font-size: 320%;
+    font-weight: 700;
+    white-space: nowrap;
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+}
+
+@media screen and (width < 992px) {
+    .pricing-section {
+        height: 500px;
+    }
+
+    .pricing-section .row {
+        height: 500px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    .pricing-section .msrp,
+    .pricing-section .mpg {
+        max-height: 5em;
+        color: #fff;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        align-self: flex-end;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: unset;
+        background-color: unset;
+        transform: translateY(-8em);
+    }
+
+    .pricing-section .msrp p,
+    .pricing-section .mpg p {
+        font-size: 160%;
+        text-shadow: unset;
+    }
+} */

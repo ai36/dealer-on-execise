@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 18px/24px Poppins, system-ui, sans-serif;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+header,
+footer,
+section {
+    padding: 4em 0;
+}
+
+footer {
+    padding-bottom: 0;
+}
+
+form {
+    padding-bottom: 2em;
+}
+
+legend {
+    color: inherit;
+    border: none;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+a {
+    color: inherit;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
